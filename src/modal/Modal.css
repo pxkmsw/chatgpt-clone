@@ -1,0 +1,46 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal .modal-message {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #12002b;
+  text-align: center;
+  margin-top: 5rem;
+}
+/* Modal Content */
+.modal .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 2rem;
+  border: 0.1rem solid #888;
+  width: 80%;
+  height: 15rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+/* The Close Button */
+.modal .modal-content .close-button {
+  color: #aaaaaa;
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.modal .modal-content .close-button:hover, 
+.modal .modal-content .close-button:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
